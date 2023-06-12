@@ -16,11 +16,9 @@ Obsidian (+pandoc) is easy to use, can handle LaTeX-style citations, figure refe
 
 ### Complete Set Up
 
-A step-by-step guide is available here: 
+A step-by-step guide is available here: [Obsidian Tutorial for Academic Writing](https://betterhumans.pub/obsidian-tutorial-for-academic-writing-87b038060522)
 
-[Obsidian Tutorial for Academic Writing](https://betterhumans.pub/obsidian-tutorial-for-academic-writing-87b038060522)
-
-This will guide you through syncing Zotero and Obsidian, setting up Pandoc, and referencing figures and citations. 
+It will guide you through syncing Zotero and Obsidian, setting up Pandoc, and referencing figures and citations. 
 
 ### Partial Set Up
 
@@ -48,6 +46,8 @@ TemplateName/
 ├─ README
 ├─ TemplateName.sty
 ```
+
+The `README` file should contain a description of the template.
 
 The `example` folder should contain the markdown `.md` file used to generate the folder and the output PDF `.pdf` file generated. 
 
