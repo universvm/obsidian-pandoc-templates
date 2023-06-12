@@ -52,3 +52,7 @@ The `README` file should contain a description of the template.
 The `example` folder should contain the markdown `.md` file used to generate the folder and the output PDF `.pdf` file generated. 
 
 You may include additional files such as image (sparingly) and `.bib` files.  
+
+### Can I use this repository for my plugin? 
+
+Yes, please an issue and so that we can add your plugin to a list here.  
