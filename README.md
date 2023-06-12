@@ -42,6 +42,7 @@ TemplateName/
 ├─ example/
 │  ├─ example.md
 │  ├─ example.pdf
+│  ├─ example.png
 ├─ TemplateName.tex
 ├─ README
 ├─ TemplateName.sty
@@ -51,8 +52,15 @@ The `README` file should contain a description of the template.
 
 The `example` folder should contain the markdown `.md` file used to generate the folder and the output PDF `.pdf` file generated. 
 
+`example.png` is a preview of the template, typically the first few pages of the PDF. Use the following [ImageMagick](https://imagemagick.org) command:
+
+```
+convert example.pdf +append -alpha remove -alpha off example.png
+```
+
 You may include additional files such as image (sparingly) and `.bib` files.  
+
 
 ### Can I use this repository for my plugin? 
 
-Yes, please an issue and so that we can add your plugin to a list here.  
+Yes, please an issue and so that we can add your plugin to a list here. 
