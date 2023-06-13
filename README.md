@@ -1,4 +1,4 @@
-# Academic Pandoc Templates
+# Obsidian Pandoc Templates
 
 <div align="center">
   <img src="img/intro.png"><br>
