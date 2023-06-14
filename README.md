@@ -4,7 +4,11 @@
   <img src="img/intro.png"><br>
 </div>
 
-A repository for academic templates. Geared for Pandoc and Obsidian.
+A repository for templates. Geared for Pandoc and Obsidian. 
+
+These templates are included in the following Obsidian plugins:
+
+- [Obsidian Enhancing Export](https://github.com/mokeyish/obsidian-enhancing-export/)
 
 ## Why Templates? 
 
@@ -33,16 +37,17 @@ If you need more guidance, look into Section 4 of the [Obsidian Tutorial for Aca
 
 ## Contributing
 
-Do you have an Academic Pandoc Template? Open a pull request! 
+Do you have a Pandoc Template? Open a pull request! 
 
 Templates should be added in the following formats:
 
 ```
 TemplateName/
 ├─ example/
-│  ├─ example.md
-│  ├─ example.pdf
-│  ├─ example.png
+│  ├─ TemplateName.md
+│  ├─ TemplateName.pdf
+│  ├─ TemplateName.png
+│  ├─ LICENSE
 ├─ TemplateName.tex
 ├─ README
 ├─ TemplateName.sty
@@ -63,4 +68,4 @@ You may include additional files such as image (sparingly) and `.bib` files.
 
 ### Can I use this repository for my plugin? 
 
-Yes, please an issue and so that we can add your plugin to a list here. 
+Yes, please open an issue and so that we can add your plugin to a list here. 
