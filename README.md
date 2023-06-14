@@ -47,10 +47,10 @@ TemplateName/
 │  ├─ TemplateName.md
 │  ├─ TemplateName.pdf
 │  ├─ TemplateName.png
-│  ├─ LICENSE
 ├─ TemplateName.tex
-├─ README
 ├─ TemplateName.sty
+├─ README
+├─ LICENSE
 ```
 
 The `README` file should contain a description of the template.
