@@ -68,4 +68,4 @@ You may include additional files such as image (sparingly) and `.bib` files.
 
 ### Can I use this repository for my plugin? 
 
-Please include the templates as a repository rather than downloading them and re-uploading them in your plugin. This is for licensing matters.
+Please include this repository as a git submodule rather than downloading them and re-uploading them in your plugin. This is for licensing matters.
