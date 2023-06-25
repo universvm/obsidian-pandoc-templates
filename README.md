@@ -8,7 +8,7 @@ A repository for templates. Geared for Pandoc and Obsidian.
 
 These templates are included in the following Obsidian plugins:
 
-- [Obsidian Enhancing Export](https://github.com/mokeyish/obsidian-enhancing-export/)
+- Coming soon
 
 ## Why Templates? 
 
@@ -68,4 +68,4 @@ You may include additional files such as image (sparingly) and `.bib` files.
 
 ### Can I use this repository for my plugin? 
 
-Yes, please open an issue and so that we can add your plugin to a list here. 
+Please include this repository as a git submodule rather than downloading them and re-uploading them in your plugin. This is for licensing matters.
