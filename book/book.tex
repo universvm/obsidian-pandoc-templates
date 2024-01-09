@@ -1,0 +1,74 @@
+% BOOK
+% A Simple and Minimalist way of making books in Obsidian
+%
+% Very Hacky and broken
+%
+% READ THE README AND LICENCE FILE LOCATED WITH THE TEMPLATE
+% 
+% Happy exporting!
+
+
+\documentclass[12pt,twoside]{article}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{ifthen}
+\usepackage[T1]{fontenc}
+% Default font package
+\usepackage{tgpagella}
+
+
+%Header and Footer
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+\fancyhf{} % Clear header and footer
+% Define headers for odd (recto) and even (verso) pages
+\fancyhead[LE,RO]{\nouppercase{\leftmark{}}}
+% Add line to the bottom of the footer
+\renewcommand{\footrulewidth}{1pt} % Line thickness in footer
+% Set page numbers on the left side for odd pages and on the right side for even pages
+\fancyfoot[LE,RO]{
+  \ifthenelse{\isodd{\value{page}}}{\llap{\thepage\hspace{0em}}}{\hspace{0em}\thepage}}
+
+% Remove numbering from section titles
+\titleformat{\section}[block]{\normalfont\LARGE\bfseries}{}{0em}{}
+\titleformat{\subsection}[block]{\normalfont\Large\bfseries}{}{0em}{}
+\titleformat{\subsubsection}[block]{\normalfont\large\bfseries}{}{0em}{}
+
+
+% Set numbering depth to remove all section numbers
+\setcounter{secnumdepth}{0}
+%?!?
+
+\geometry{
+    a4paper,
+    tmargin=2cm,
+    bmargin=2.5cm,
+    lmargin=2cm,
+    rmargin=2cm,
+    headheight=0.5cm,
+    headsep=0.8cm,
+    footskip=1cm
+}
+
+% Redefine leftmark and rightmark to remove section numbers
+\makeatletter
+\renewcommand{\sectionmark}[1]{%
+  \markboth{%
+    #1%
+  }{}%
+}
+\renewcommand{\subsectionmark}[1]{}
+\makeatother
+%There must be an easier method for this
+
+\begin{document} % Start of document
+
+% Replace qpl with default font code
+{\fontfamily{qpl}\selectfont$body$} % Content goes here
+
+\end{document} % End of document
