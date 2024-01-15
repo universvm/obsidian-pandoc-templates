@@ -6,11 +6,13 @@ At the end of the day, you should consider this loop as a loose guideline on how
   
 
 “_I’m trying to free your mind, Neo, but I can only show you the door. You’re the one that has to walk through it_.” - **[The Matrix](https://www.youtube.com/watch?v=xc3VG9JZM6I)** (1999)
+
 ## Step 0: Foundation
 
 Do not skip this step. It’s really simple, just learn [hiragana](https://www.tofugu.com/japanese/learn-hiragana/)  and [katakana](https://www.tofugu.com/japanese/learn-katakana/) .
 
 You really _really_ **really** _**NEED**_ this.
+
 ## Step 1: Basics
 
 The three areas of **Grammar**, **Vocabulary**, and **Listening** should be done more or less at the same time, they are independent and parallel with each other, they will all equally help you unlock the path to the next stage when you are ready.
@@ -62,6 +64,10 @@ With some extremely minimal amount of effort, you can make insane gains in your 
 
 **NOTE**: The test requires you to sign up with an account but you can give it any random username and pass and it won’t matter. They don’t even verify it.
 
+# TEST HEADING
+
+
+## Main Content
 If you cannot maintain a score above 90% consistently, you need to train your hearing. Just keep doing the pitch accent test a little bit every day (you don’t have to be too strict, just do it whenever you have time) until you can hit the 95~100% mark. Once you are aware of pitch, try to listen for it in every word and sentence you hear, it will change your life.
 
 While it’s always good to get acquainted with the phonetics, sounds, and pacing of the language, at this stage there’s not much else you should worry about. Passive listening won’t hurt you but it also won’t help you that much, as you lack both the grammar and vocabulary to properly immerse actively in anything yet.
@@ -121,3 +127,6 @@ Here be dragons. I can show you no path to get here. The only thing that can get
 Also remember that fluency means different things for different people and its objective definition is not something you should be concerned about.
 
 **Just loop**.
+
+
+
